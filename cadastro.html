@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastre-se</title>
+
+</head>
+
+<body>
+
+    <center>
+        <table cellpadding="12">
+
+            <tr>
+
+            <th><a href="index.html"><font size="5">Home</font></a></th>
+            <th><a href="producao.html"><font size="5">Produção</font></a></th>
+            <th><a href="capuccino.html"><font size="5">Receitas</font></a></th>
+            <th><a href="cadastro.html"><font size="5">Cadastre-se</font></a></th>
+            <th><a href="localizacao.html"><font size="5">Localização</font></a></th>
+            <th><a href="videos.html"><font size="5">Vídeos</font></a></th>
+            <th><font size="5">Fale Conosco</font></th>
+
+            </tr>
+
+        </table> 
+    </center>   
+
+    <center>
+        <a href="index.html"> <img  id="topo" align="middle" src="img/logo.jpg" width = "100px" align="middle"> <font size="6"></a><b>Cadastre-se no Café Sarbuzz<sup>&reg;</sup> </b></font> 
+    </center> 
+    
+    <form action="teste.php" method="POST" ID='fomr1'>
+
+        <label for="name" >Nome completo:</label>    
+        <br>
+
+        <input type="text" name="nome" size="60" placeholder="Digite seu nome completo" maxlength="150" minlength="20">
+
+        <br>
+        <br>
+
+        <label for="date">Data Nascimento:</label>
+        <br>
+
+        <input type="date" name="idade" size="10">
+
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email" name="email" placeholder="Digite o email">
+
+        <br>
+        <br>
+
+        <label for="sexo">Sexo</label>
+        <br>
+
+        <input type="radio" name="sexo" value="Feminino">Feminino
+        <input type="radio" name="sexo" value="Masculino">Masculino
+
+        <br>
+        <br>
+
+        <label for="cafe preferido">Café preferido</label>
+        <br>
+
+        <select name="preferido">
+            <option value="mistura da casa">Mistura da Casa</option>
+            <option value="cafe arabico">Café Arábico</option>
+            <option value="capuccino">Capuccino</option>
+            <option value="cha">Chá</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="toma cafe">Você toma café...</label>
+        <br>
+
+        <input type="checkbox" name="toma cafe" value="manha">Manhâ
+        <input type="checkbox" name="toma cafe" value="tarde">Tarde
+        <input type="checkbox" name="toma cafe" value="noite">Noite
+
+        <br>
+        <br>
+
+        <textarea name="comentaios" cols="40" rows="4" placeholder="Deixe su comentário"></textarea>
+
+        <br>
+
+        Receber novidades por email<input type="checkbox" name="receber novidades" value="receber novidades">
+
+        <br>
+        <br>
+
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" name="limapr" value="Limpar">
+
+    </form>
+
+    <br>
+
+    <a href="index.html"><h3>Voltar</h3></a>
+
+</body>
+
+</html>
